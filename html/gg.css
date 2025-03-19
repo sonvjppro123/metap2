@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+.profile {
+    display: flex;
+    justify-content: center; /* Center the profile picture */
+    margin-bottom: 0px; /* Space below the profile */
+}
+
+.profile-pic {
+    width: 100px;  /* Set a smaller width */
+    height: 100px; /* Set a smaller height */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+body {
+    font-family: Pacifico, cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+body::before{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://images.wallpapersden.com/image/download/escape-hd-minimal-cool_bWZnbGqUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255,0.1);
+    background-color: rgba(255, 255, 255, 0.1); /* Nền trong suốt */
+    backdrop-filter: blur(100%); /* Hiệu ứng làm mờ */
+}
+.label {
+    font-family: 'Dancing script', cursive;
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: rgb(8, 6, 6);
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-btn {
+    background-color: #3E3E3E;
+    color: white;
+    padding: 10px;
+    margin: 0px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #afadad;
+}
+.facebook {
+    background-color: #1877F2;
+    margin-bottom: 10px;
+}
+.youtube {
+    background-color: #FF0000;
+    margin-bottom: 10px;
+}
+.instagram{
+    background-color: #E1306C;
+    margin-bottom: 10px;
+}
+.threads{
+    background-color: #3E3E3E;
+    margin-bottom: 10px;
+}
+.phone{
+    background-color:  #3DDC84;
+    margin-bottom: 10px;
+}
